@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Alexandria Restaurant",
+    "category": "Dining",
+    "deck": "Check official Aurora deck plan",
+    "description": "Main dining venue; confirm current dining arrangements."
+  },
+  {
+    "name": "Medina Restaurant",
+    "category": "Dining",
+    "deck": "Check official Aurora deck plan",
+    "description": "Main dining venue; check your allocated dining arrangements."
+  },
+  {
+    "name": "Horizon Buffet",
+    "category": "Dining",
+    "deck": "Check official Aurora deck plan",
+    "description": "Casual buffet dining; check opening hours."
+  },
+  {
+    "name": "Sindhu",
+    "category": "Dining",
+    "deck": "Check official Aurora deck plan",
+    "description": "Speciality Indian-inspired dining; reservations and charges may apply."
+  },
+  {
+    "name": "The Beach House",
+    "category": "Dining",
+    "deck": "Check official Aurora deck plan",
+    "description": "Informal speciality dining; availability and charges may vary."
+  },
+  {
+    "name": "The Glass House",
+    "category": "Dining",
+    "deck": "Check official Aurora deck plan",
+    "description": "Wine and food venue; confirm availability onboard."
+  },
+  {
+    "name": "Crow’s Nest",
+    "category": "Bars",
+    "deck": "Check official Aurora deck plan",
+    "description": "Observation lounge; check current venue use."
+  },
+  {
+    "name": "Anderson’s",
+    "category": "Bars",
+    "deck": "Check official Aurora deck plan",
+    "description": "Lounge and bar; check daily programme."
+  },
+  {
+    "name": "Champions",
+    "category": "Bars",
+    "deck": "Check official Aurora deck plan",
+    "description": "Sports-style bar; confirm current facilities."
+  },
+  {
+    "name": "Raffles",
+    "category": "Bars",
+    "deck": "Check official Aurora deck plan",
+    "description": "Lounge bar; check current opening hours."
+  },
+  {
+    "name": "Curzon Theatre",
+    "category": "Entertainment",
+    "deck": "Check official Aurora deck plan",
+    "description": "Live performances and shows; consult daily programme."
+  },
+  {
+    "name": "Carmen’s Show Lounge",
+    "category": "Entertainment",
+    "deck": "Check official Aurora deck plan",
+    "description": "Entertainment and events; check daily programme."
+  },
+  {
+    "name": "Oasis Spa",
+    "category": "Facilities",
+    "deck": "Check official Aurora deck plan",
+    "description": "Spa and treatments; charges may apply."
+  },
+  {
+    "name": "Swimming pools",
+    "category": "Facilities",
+    "deck": "Check official Aurora deck plan",
+    "description": "Check current pool access, locations and opening hours."
+  },
+  {
+    "name": "Fitness facilities",
+    "category": "Facilities",
+    "deck": "Check official Aurora deck plan",
+    "description": "Check current gym opening times and access."
+  }
+]
