@@ -1,6 +1,6 @@
 {
-  "name": "Elevor360D Aurora Cruise Companion",
-  "short_name": "Aurora Guide",
+  "name": "Elevor360D Queen Mary 2 Cruise Companion",
+  "short_name": "Queen Mary 2 Guide",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

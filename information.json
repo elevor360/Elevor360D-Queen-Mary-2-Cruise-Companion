@@ -1,110 +1,50 @@
 {
-  "title": "Aurora Passenger Information — V1",
-  "updated": "2026-11-09 — initial independent guide",
+  "title": "Queen Mary 2 Passenger Information — V1",
+  "updated": "2026-11-09 — independent guide",
   "sections": [
     {
-      "heading": "Welcome aboard Aurora",
-      "body": "Independent Elevor360D guide, not affiliated with P&O Cruises. Aurora is an adults-only ship. Confirm current ship arrangements and policies directly with the operator."
+      "heading": "Welcome aboard Queen Mary 2",
+      "body": "Independent Elevor360D guide, not affiliated with Cunard. Queen Mary 2 is an ocean liner known for transatlantic crossings as well as cruises. Check all current onboard details with Cunard."
     },
     {
       "heading": "Official ship and deck plans",
-      "body": "Official P&O Cruises Aurora ship information and deck plans (internet required): https://www.pocruises.com/cruise-ships/aurora/overview\nOfficial deck plan PDF: https://www.pocruises.com/dam/pdfs/Aurora-Deck-Plan-2025.pdf\nAlways use the current deck plan and onboard signage."
+      "body": "Official Cunard Queen Mary 2 ship information and deck plans (internet required): https://www.cunard.com/en-gb/cruise-ships/queen-mary-2\nUse Cunard's latest published deck plans and onboard signage."
     },
     {
       "heading": "Deck reference",
-      "body": "Use the official Aurora deck plan for deck names, cabin locations, lift access and venues. This app offers personal notes and a general orientation guide, not an authoritative cabin map."
+      "body": "Consult the official Queen Mary 2 deck plan for cabin positions, lifts, accessible routes and venues. Deck locations and facilities can change."
     },
     {
-      "heading": "Dining on Aurora",
-      "body": "Aurora dining choices have included the Alexandria and Medina restaurants, Horizon buffet, Sindhu and The Beach House. Availability, naming, booking and supplements may change; confirm onboard."
+      "heading": "Dining",
+      "body": "Queen Mary 2 dining includes arrangements linked to stateroom categories, as well as casual and speciality options. Check your booking and Cunard's daily programme for current restaurants, booking requirements and charges."
     },
     {
-      "heading": "Entertainment and relaxation",
-      "body": "Aurora has offered entertainment in the Curzon Theatre and other lounges, along with pool and spa facilities. Check the daily onboard programme for current events and opening times."
+      "heading": "Entertainment and activities",
+      "body": "Queen Mary 2 is known for its theatre, planetarium-style presentations, library and enrichment programme. Specific activities and availability depend on the sailing."
     },
     {
       "heading": "Before travelling",
-      "body": "Check your passport and any destination entry requirements, travel insurance, boarding documents, luggage labels, medication and embarkation time. Operator guidance takes priority."
+      "body": "Check passport, visa and entry requirements for every port, travel insurance, embarkation details, luggage labels, medications and the Cunard boarding instructions."
     },
     {
       "heading": "First day onboard",
-      "body": "Follow crew directions and safety instructions, locate your cabin and muster information, check restaurant bookings and review the daily programme."
+      "body": "Find your stateroom and muster arrangements, review the daily programme, check dining details and save your cabin/deck notes in this app."
     },
     {
-      "heading": "Port days",
-      "body": "Check the all-aboard time, any shuttle or tender arrangements, required documents and the return route. Allow extra time; ship times and local times can differ."
+      "heading": "At sea",
+      "body": "Use My Day and My Cruise to plan activities and keep notes. Confirm opening hours, events and reservations with the ship."
     },
     {
-      "heading": "Using the app offline",
-      "body": "Open the app online at least once after installing to cache its core files. Your planner, packing and spending records stay in this browser. Back up before switching devices or clearing browser data."
+      "heading": "Ports and excursions",
+      "body": "Record your port plans, meeting points, return-to-ship times and memorable visits. Always follow the ship's official all-aboard time."
     },
     {
-      "heading": "Information and advertisements",
-      "body": "The owner can update information.json and advert-settings.json in the GitHub Pages repository. New information requires internet access to refresh; cached information may remain available offline."
+      "heading": "Connectivity and offline use",
+      "body": "Save your plans while connected. Personal records are stored on your device. This app is not linked to Cunard's onboard systems; internet access is needed for external links."
     },
     {
-      "heading": "Preparing for embarkation",
-      "body": "Check the current boarding time in your travel documents, and keep passports, medication and essential items in hand luggage. Complete any required online check-in before travelling. Follow port and crew instructions."
-    },
-    {
-      "heading": "Finding your way around",
-      "body": "Use the ship’s current deck plan and onboard signs to confirm restaurant and facility locations. Save your cabin number and useful routes in the app; locations and access can change during a voyage."
-    },
-    {
-      "heading": "Dining reservations and dietary needs",
-      "body": "Check current dining arrangements and opening hours onboard. Ask the dining team about dietary requirements and allergies; do not rely solely on this independent guide for allergen advice. Speciality restaurants may require booking or additional payment."
-    },
-    {
-      "heading": "A practical sea-day routine",
-      "body": "Check the daily onboard programme, choose any shows or activities that need booking, and allow time for meals and relaxation. Save plans in My Cruise and use My Day for a quick overview."
-    },
-    {
-      "heading": "Excursions and independent port visits",
-      "body": "Confirm all-aboard time with the ship, not only the itinerary. Take the required travel documents, check whether tenders or shuttles operate, and plan a return margin. Local and ship time may differ."
-    },
-    {
-      "heading": "Onboard spending and drinks",
-      "body": "Use the spending and drinks trackers for your own estimates only. They do not connect to your onboard account or verify package allowances. Check your official account and package terms for actual charges."
-    },
-    {
-      "heading": "Disembarkation day",
-      "body": "Read the ship’s departure instructions for luggage collection, settlement of your onboard account and your assigned departure arrangements. Keep travel documents and essentials accessible."
-    },
-    {
-      "heading": "Keeping records safe",
-      "body": "Your saved plans, packing checklist and trackers are stored on this device and in this browser. Use Settings → Backup before replacing a device, clearing browser data or reinstalling. Restoring a backup replaces current app records."
-    },
-    {
-      "heading": "Updates and internet connection",
-      "body": "The app works offline after its core files are cached, but the publisher’s information and advertisements can only refresh when connected. Check the latest official P&O Cruises notices for schedules, prices and ship changes."
-    },
-    {
-      "heading": "Your final pre-cruise check",
-      "body": "Before leaving, check the latest boarding instructions, travel documents, destination entry rules, luggage labels, essential medicines, travel insurance and any changes to your itinerary. Keep passports and medication in hand luggage."
-    },
-    {
-      "heading": "Onboard programme and restaurant times",
-      "body": "Entertainment, restaurant opening hours, charges and booking requirements may change during your cruise. Check the daily programme and ask the crew for current arrangements."
-    },
-    {
-      "heading": "Onboard account and personal budget",
-      "body": "The drinks and spending trackers are personal estimates only, not a live connection to your onboard account. Confirm actual prices, packages, gratuities and final balances with the ship."
-    },
-    {
-      "heading": "Before going ashore",
-      "body": "Confirm the ship’s all-aboard time and whether it is shown in ship time or local time. Check your documents, any tender arrangements and your return transport. Leave sufficient time to return."
-    },
-    {
-      "heading": "Last day and disembarkation",
-      "body": "Follow the latest ship instructions about luggage, your assigned disembarkation time, travel arrangements and your onboard account. Keep travel documents and essentials with you."
-    },
-    {
-      "heading": "Your data and privacy",
-      "body": "Plans, cabin notes, packing items and spending entries are saved locally in your browser. They are not sent to the app publisher. Make a backup before clearing browser data or moving to another device. Restoring a backup can replace current saved entries."
-    },
-    {
-      "heading": "About this independent guide",
-      "body": "Elevor360D Aurora Cruise Companion is an independent unofficial guide, not operated or endorsed by P&O Cruises. For safety, accessibility, schedules, deck layouts, venue availability and prices, always follow official cruise documents and crew instructions."
+      "heading": "Important disclaimer",
+      "body": "Unofficial independent passenger companion. Not endorsed by or affiliated with Cunard. All ship details, deck plans, itineraries and prices should be confirmed with Cunard."
     }
   ]
 }

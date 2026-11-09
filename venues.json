@@ -1,92 +1,80 @@
 [
   {
-    "name": "Alexandria Restaurant",
+    "name": "Britannia Restaurant",
     "category": "Dining",
-    "deck": "Check official Aurora deck plan",
-    "description": "Main dining venue; confirm current dining arrangements."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Main restaurant; dining allocation depends on your booking."
   },
   {
-    "name": "Medina Restaurant",
+    "name": "Britannia Club Restaurant",
     "category": "Dining",
-    "deck": "Check official Aurora deck plan",
-    "description": "Main dining venue; check your allocated dining arrangements."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Dining for eligible Britannia Club guests."
   },
   {
-    "name": "Horizon Buffet",
+    "name": "Princess Grill",
     "category": "Dining",
-    "deck": "Check official Aurora deck plan",
-    "description": "Casual buffet dining; check opening hours."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Dining for eligible Princess Grill guests."
   },
   {
-    "name": "Sindhu",
+    "name": "Queens Grill",
     "category": "Dining",
-    "deck": "Check official Aurora deck plan",
-    "description": "Speciality Indian-inspired dining; reservations and charges may apply."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Dining for eligible Queens Grill guests."
   },
   {
-    "name": "The Beach House",
+    "name": "Kings Court",
     "category": "Dining",
-    "deck": "Check official Aurora deck plan",
-    "description": "Informal speciality dining; availability and charges may vary."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Casual dining; check current service times."
   },
   {
-    "name": "The Glass House",
-    "category": "Dining",
-    "deck": "Check official Aurora deck plan",
-    "description": "Wine and food venue; confirm availability onboard."
-  },
-  {
-    "name": "Crow’s Nest",
+    "name": "Golden Lion",
     "category": "Bars",
-    "deck": "Check official Aurora deck plan",
-    "description": "Observation lounge; check current venue use."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Traditional pub-style venue; check current food and entertainment."
   },
   {
-    "name": "Anderson’s",
+    "name": "Commodore Club",
     "category": "Bars",
-    "deck": "Check official Aurora deck plan",
-    "description": "Lounge and bar; check daily programme."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Observation lounge and bar; check opening hours."
   },
   {
-    "name": "Champions",
+    "name": "Chart Room",
     "category": "Bars",
-    "deck": "Check official Aurora deck plan",
-    "description": "Sports-style bar; confirm current facilities."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Lounge and bar; check onboard programme."
   },
   {
-    "name": "Raffles",
-    "category": "Bars",
-    "deck": "Check official Aurora deck plan",
-    "description": "Lounge bar; check current opening hours."
-  },
-  {
-    "name": "Curzon Theatre",
+    "name": "Queens Room",
     "category": "Entertainment",
-    "deck": "Check official Aurora deck plan",
-    "description": "Live performances and shows; consult daily programme."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Ballroom and social events; check the daily programme."
   },
   {
-    "name": "Carmen’s Show Lounge",
+    "name": "Royal Court Theatre",
     "category": "Entertainment",
-    "deck": "Check official Aurora deck plan",
-    "description": "Entertainment and events; check daily programme."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Theatre shows and performances; confirm sailing schedule."
   },
   {
-    "name": "Oasis Spa",
-    "category": "Facilities",
-    "deck": "Check official Aurora deck plan",
-    "description": "Spa and treatments; charges may apply."
+    "name": "Illuminations",
+    "category": "Entertainment",
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Presentation and entertainment venue; check availability."
   },
   {
-    "name": "Swimming pools",
+    "name": "Library",
     "category": "Facilities",
-    "deck": "Check official Aurora deck plan",
-    "description": "Check current pool access, locations and opening hours."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Browse the onboard library; check opening hours."
   },
   {
-    "name": "Fitness facilities",
+    "name": "Canyon Ranch Spa / onboard spa",
     "category": "Facilities",
-    "deck": "Check official Aurora deck plan",
-    "description": "Check current gym opening times and access."
+    "deck": "Check official Queen Mary 2 deck plan",
+    "description": "Check Cunard for the current spa name, services and charges."
   }
 ]
