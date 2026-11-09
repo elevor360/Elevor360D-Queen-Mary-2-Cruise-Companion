@@ -9,3 +9,5 @@ The share QR points to the proposed URL. Test install, offline, advertising, QR,
 Independent unofficial Cunard passenger guide; confirm ship details with Cunard.
 
 V1.1: Cunard venues verified in venues.json; refreshed app script, cache, footer and drinks text.
+
+V1.2: Queen Mary 2 Facilities Finder corrected; cache updated. Verify locations with official Cunard deck plan.

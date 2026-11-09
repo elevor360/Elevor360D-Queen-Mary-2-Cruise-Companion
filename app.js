@@ -33,14 +33,20 @@ function printReport(title,headers,rows,note=''){
 function downloadText(filename,contents,mime){let blob=new Blob([contents],{type:mime}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
 
 const FACILITIES=[
-{name:'Medical Centre',deck:'Check onboard guide',category:'Medical',notes:'Ask reception or follow ship signage for current location and opening hours.'},
-{name:'Oasis Spa',deck:'Check official deck plan',category:'Wellness',notes:'Spa and treatment availability may vary.'},
-{name:'Gym',deck:'Check official deck plan',category:'Wellness',notes:'Check access and opening hours onboard.'},
-{name:'Swimming pools',deck:'Check official deck plan',category:'Leisure',notes:'Consult daily information for pool access and opening times.'},
-{name:'Children’s facilities',deck:'Check onboard guide',category:'Family',notes:'Check age groups and registration requirements onboard.'},
-{name:'Lifts and stairs',deck:'Various',category:'Navigation',notes:'Follow ship signs for accessible routes.'},
-{name:'Public toilets',deck:'Various',category:'Facilities',notes:'Follow onboard signage.'},
-{name:'Laundry',deck:'Check onboard guide',category:'Facilities',notes:'Confirm available guest laundry facilities onboard.'}
+{name:'Pavilion Pool',deck:'Check official Queen Mary 2 deck plan',category:'Pools',notes:'Pool and nearby leisure area; check current access and hours.'},
+{name:'Terrace Pool',deck:'Check official Queen Mary 2 deck plan',category:'Pools',notes:'Outdoor pool area; confirm opening and weather restrictions onboard.'},
+{name:'Minnows Pool',deck:'Check official Queen Mary 2 deck plan',category:'Pools',notes:'Family pool area; check current access rules.'},
+{name:'Mareel Wellness & Beauty',deck:'Check official Queen Mary 2 deck plan',category:'Wellness',notes:'Spa, treatments and wellness facilities; availability and charges may apply.'},
+{name:'Fitness Centre',deck:'Check official Queen Mary 2 deck plan',category:'Wellness',notes:'Exercise facilities; confirm opening hours and classes onboard.'},
+{name:'Queen Mary 2 Library',deck:'Check official Queen Mary 2 deck plan',category:'Quiet spaces',notes:'Library and reading facilities; check current hours.'},
+{name:'Illuminations',deck:'Check official Queen Mary 2 deck plan',category:'Entertainment',notes:'Venue for presentations and planetarium-style experiences, subject to the voyage programme.'},
+{name:'Royal Court Theatre',deck:'Check official Queen Mary 2 deck plan',category:'Entertainment',notes:'Theatre performances and events; check daily programme.'},
+{name:'Queens Room',deck:'Check official Queen Mary 2 deck plan',category:'Entertainment',notes:'Ballroom and social events; check daily programme.'},
+{name:'Medical Centre',deck:'Check onboard guide',category:'Medical',notes:'Ask Guest Services for location, opening hours and urgent assistance.'},
+{name:'Guest Services',deck:'Check onboard guide',category:'Services',notes:'Passenger enquiries and assistance; follow onboard signage.'},
+{name:'Lifts and stairs',deck:'Various',category:'Navigation',notes:'Consult deck plans and signage for routes and accessibility.'},
+{name:'Public toilets',deck:'Various',category:'Services',notes:'Follow onboard signage for the nearest facilities.'},
+{name:'Laundry and pressing services',deck:'Check onboard guide',category:'Services',notes:'Ask Cunard about available laundry and pressing services and charges; do not assume self-service laundry.'}
 ];
 function facilityGuide(){return `<section class="card"><h2>Facilities finder</h2><p class="muted">Searchable offline reference. Locations labelled “Various” or a range are not exact directions.</p><input id="facilitySearch" placeholder="Search pool, gym, lifts, toilets..." aria-label="Search facilities"><label for="facilityCategory">Category</label><select id="facilityCategory"><option>All</option>${[...new Set(FACILITIES.map(x=>x.category))].map(x=>`<option>${esc(x)}</option>`).join('')}</select><div id="facilityResults"></div><p class="muted">Accessibility routes and emergency directions must be confirmed with ship staff and onboard signage.</p></section>`}
 function facilityRows(){let q=($('#facilitySearch')?.value||'').toLowerCase(),c=$('#facilityCategory')?.value||'All';$('#facilityResults').innerHTML=FACILITIES.filter(x=>(c==='All'||x.category===c)&&(x.name+' '+x.deck+' '+x.notes).toLowerCase().includes(q)).map(x=>`<div class="item"><b>${esc(x.name)}</b> <span class="tag">${esc(x.category)}</span><p>Deck: ${esc(x.deck)}</p><small>${esc(x.notes)}</small></div>`).join('')||'<p>No matching facilities.</p>'}
