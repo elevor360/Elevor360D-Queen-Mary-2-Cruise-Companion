@@ -7,3 +7,5 @@ Proposed URL: https://elevor360.github.io/Elevor360D-Queen-Mary-2-Cruise-Compani
 Upload all ZIP contents to the root of a NEW GitHub Pages repository. Preserve the advertising folder and images.
 The share QR points to the proposed URL. Test install, offline, advertising, QR, planner, and backup/restore after publishing.
 Independent unofficial Cunard passenger guide; confirm ship details with Cunard.
+
+V1.1: Cunard venues verified in venues.json; refreshed app script, cache, footer and drinks text.
